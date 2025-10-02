@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Canteen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🍴 College Canteen</h1>
+    <nav>
+      <button onclick="showSection('menu')">Menu</button>
+      <button onclick="showSection('about')">About</button>
+      <button onclick="showSection('contact')">Contact</button>
+      <button onclick="showSection('order')">Order</button>
+    </nav>
+  </header>
+
+  <!-- Menu Section -->
+<section id="menu" class="content">
+  <h2>Our Menu</h2>
+  <div class="food-gallery">
+
+    <div class="food-item">
+      <img src="C:\Users\ganga\OneDrive\Documents\Pictures\samosa.jpg"
+      <p>Samosa - ₹10</p>
+      <!-- Quantity selector -->
+   <div class="quantity-control">
+    <button onclick="changeQuantity('samosaQty', -1)">-</button>
+    <input type="number" id="samosaQty" value="1" min="1" readonly>
+    <button onclick="changeQuantity('samosaQty', 1)">+</button>
+  </div>
+      <button onclick="addToCart('Samosa', 10,document.getElementById('samosaQty').value)">Add to Cart</button>
+    </div>
+
+    <div class="food-item">
+      <img src="C:\Users\ganga\OneDrive\Documents\Pictures\noodles.jpg"
+      <p>Noodles - ₹30</p>
+      <!-- Quantity selector -->
+  <div class="quantity-control">
+    <button onclick="changeQuantity('noodlesQty', -1)">-</button>
+    <input type="number" id="noodlesQty" value="1" min="1" readonly>
+    <button onclick="changeQuantity('noodlesQty', 1)">+</button>
+  </div>
+      <button onclick="addToCart('Noodles', 30,document.getElementById('noodlesQty').value)">Add to Cart</button>
+    </div>
+
+    <div class="food-item">
+      <img src="C:\Users\ganga\OneDrive\Documents\Pictures\coffee.jpg"
+      <p>Coffee - ₹20</p>
+      <!-- Quantity selector -->
+  <div class="quantity-control">
+    <button onclick="changeQuantity('coffeeQty', -1)">-</button>
+    <input type="number" id="coffeeQty" value="1" min="1" readonly>
+    <button onclick="changeQuantity('coffeeQty', 1)">+</button>
+  </div>
+      <button onclick="addToCart('Coffee', 20,document.getElementById('coffeeQty').value)">Add to Cart</button>
+    </div>
+
+    <div class="food-item">
+      <img src="C:\Users\ganga\OneDrive\Documents\Pictures\tea.jpg"
+      <p>Tea - ₹15</p>
+      <!-- Quantity selector -->
+  <div class="quantity-control">
+    <button onclick="changeQuantity('teaQty', -1)">-</button>
+    <input type="number" id="teaQty" value="1" min="1" readonly>
+    <button onclick="changeQuantity('teaQty', 1)">+</button>
+  </div>
+    <button onclick="addToCart('Tea', 15,document.getElementById('teaQty').value)">Add to Cart</button>
+    </div>
+
+    <div class="food-item">
+      <img src="C:\Users\ganga\OneDrive\Documents\Pictures\burger.jpg"
+      <p>Burger - ₹50</p>
+      <div class="quantity-control">
+    <button onclick="changeQuantity('burgerQty', -1)">-</button>
+    <input type="number" id="burgerQty" value="1" min="1" readonly>
+    <button onclick="changeQuantity('burgerQty', 1)">+</button>
+  </div>
+      <button onclick="addToCart('Burger', 50,document.getElementById('burgerQty').value)">Add to Cart</button>
+    </div>
+
+    <div class="food-item">
+      <img src="C:\Users\ganga\OneDrive\Documents\Pictures\sandwich.jpg"
+      <p>Sandwich - ₹40</p>
+      <div class="quantity-control">
+    <button onclick="changeQuantity('sandwichQty', -1)">-</button>
+    <input type="number" id="sandwichQty" value="1" min="1" readonly>
+    <button onclick="changeQuantity('sandwichQty', 1)">+</button>
+  </div>
+      <button onclick="addToCart('Sandwich', 40,document.getElementById('sandwichQty').value)">Add to Cart</button>
+    </div>
+
+    <div class="food-item">
+      <img src="C:\Users\ganga\OneDrive\Documents\Pictures\dairymilk.jpg"
+      <p>Dairymilk - ₹100</p>
+      <div class="quantity-control">
+    <button onclick="changeQuantity('dairymilkQty', -1)">-</button>
+    <input type="number" id="dairymilkQty" value="1" min="1" readonly>
+    <button onclick="changeQuantity('dairymilkQty', 1)">+</button>
+  </div>
+      <button onclick="addToCart('Dairymilk', 100,document.getElementById('dairymilkQty').value)">Add to Cart</button>
+    </div>
+
+    <div class="food-item">
+      <img src="C:\Users\ganga\OneDrive\Documents\Pictures\dosa.jpg"
+      <p>Dosa - ₹20</p>
+      <div class="quantity-control">
+    <button onclick="changeQuantity('dosaQty', -1)">-</button>
+    <input type="number" id="dosaQty" value="1" min="1" readonly>
+    <button onclick="changeQuantity('dosaQty', 1)">+</button>
+  </div>
+      <button onclick="addToCart('Dosa', 20,document.getElementById('dosaQty').value)">Add to Cart</button>
+    </div>
+
+    <div class="food-item">
+      <img src="C:\Users\ganga\OneDrive\Documents\Pictures\chappathi.jpg"
+      <p>Chappathi - ₹30</p>
+      <div class="quantity-control">
+    <button onclick="changeQuantity('chappathiQty', -1)">-</button>
+    <input type="number" id="chappathiQty" value="1" min="1" readonly>
+    <button onclick="changeQuantity('chappathiQty', 1)">+</button>
+  </div>
+      <button onclick="addToCart('Chappathi', 30,document.getElementById('chappathiQty').value)">Add to Cart</button>
+    </div>
+
+    <div class="food-item">
+      <img src="C:\Users\ganga\OneDrive\Documents\Pictures\chicken rice.jpg"
+      <p>Chicken Rice - ₹90</p>
+      <div class="quantity-control">
+    <button onclick="changeQuantity('chicken riceQty', -1)">-</button>
+    <input type="number" id="chicken riceQty" value="1" min="1" readonly>
+    <button onclick="changeQuantity('chicken riceQty', 1)">+</button>
+  </div>
+      <button onclick="addToCart('Chicken Rice', 90,document.getElementById('chicken riceQty').value)">Add to Cart</button>
+    </div>
+
+    <div class="food-item">
+      <img src="C:\Users\ganga\OneDrive\Documents\Pictures\briyani.jpg"
+      <p>Briyani - ₹100</p>
+      <div class="quantity-control">
+    <button onclick="changeQuantity('briyaniQty', -1)">-</button>
+    <input type="number" id="briyaniQty" value="1" min="1" readonly>
+    <button onclick="changeQuantity('briyaniQty', 1)">+</button>
+  </div>
+      <button onclick="addToCart('Briyani', 100,document.getElementById('briyaniQty').value)">Add to Cart</button>
+    </div>
+
+    <div class="food-item">
+      <img src="C:\Users\ganga\OneDrive\Documents\Pictures\pongal.jpg"
+      <p>Pongal - ₹30</p>
+      <div class="quantity-control">
+    <button onclick="changeQuantity('pongalQty', -1)">-</button>
+    <input type="number" id="pongalQty" value="1" min="1" readonly>
+    <button onclick="changeQuantity('pongalQty', 1)">+</button>
+  </div>
+      <button onclick="addToCart('Pongal', 30,document.getElementById('pongalQty').value)">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+  <!-- Cart Section -->
+<section id="order" class="content hidden">
+  <h2>Place Your Order</h2>
+
+  <!-- Cart Summary -->
+  <div id="cartSection" style="margin-bottom:20px; padding:10px; border:1px solid #ccc; border-radius:8px;">
+    <h3>Your Cart</h3>
+    <div id="cartItems"></div>
+    <h4 id="cartTotal">Total: ₹0</h4>
+  </div>
+
+  <!-- Checkout Form -->
+  <form id="checkoutForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required><br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="text" id="phone" required><br><br>
+
+    <label for="payment">Payment Method:</label>
+    <select id="payment" required>
+      <option value="Cash">Cash</option>
+      <option value="UPI">UPI</option>
+      <option value="Card">Card</option>
+    </select><br><br>
+
+    <button type="submit">Checkout</button>
+  </form>
+
+  <!-- Order Result -->
+  <div id="orderResult" style="margin-top:20px; font-weight:bold;"></div>
+</section>
+
+  <!-- About Section -->
+  <section id="about" class="content hidden">
+    <h2>About Us</h2>
+    <p>Welcome to our college canteen! We provide fresh, tasty, and affordable food for students and staff.The College Canteen is the heart of campus life, 
+    serving as a place where students, faculty, and staff come together to enjoy fresh, affordable, and delicious meals. 
+Our canteen offers a wide variety of food options — from healthy snacks and beverages to wholesome meals — catering to different tastes and preferences.
+With a focus on quality, hygiene, and affordability, the canteen ensures that every meal served meets the standards of our college community. 
+It’s not just a place to eat, but also a spot to relax, interact, and recharge between classes.
+We believe that good food creates good energy, and our canteen is committed to keeping everyone fueled for learning, creativity, and campus activities.</p>
+    <img src="images/canteen.jpg" alt="College Canteen" class="about-img">
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="content hidden">
+    <h2>Contact Us</h2>
+    <p>📍 Location: College Campus, Ground Floor</p>
+    <p>📞 Phone: +91 9876543210</p>
+    <p>🕒 Timings: 8 AM - 6 PM</p>
+  </section>
+  <!-- Order Section -->
+<section id="order" class="content hidden">
+  <h2>Place Your Order</h2>
+  <form id="orderForm">
+    <label for="item">Select Item:</label>
+    <select id="item" required>
+      <option value="Samosa - ₹10">Samosa - ₹10</option>
+      <option value="Noodles - ₹30">Noodles - ₹30</option>
+      <option value="Coffee - ₹20">Coffee - ₹20</option>
+      <option value="Tea - ₹15">Tea - ₹15</option>
+      <option value="Burger - ₹50">Burger - ₹50</option>
+      <option value="Sandwich- ₹50">Sandwich - ₹40</option>
+      <option value="Dairymilk- ₹100">Dairymilk - ₹100</option>
+      <option value="Dosa- ₹20">Dosa - ₹20</option>
+      <option value="Chappathi- ₹30">Chappathi - ₹30</option>
+      <option value="Chicken Rice- ₹90">Chicken Rice - ₹90</option>
+      <option value="Briyani- ₹100">Briyani - ₹100</option>
+      <option value="Pongal- ₹30">Pongal - ₹30</option>
+    </select>
+    <br><br>
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" min="1" value="1" required>
+    <br><br>
+
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" required>
+    <br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" required>
+    <br><br>
+
+    <!-- ✅ New Payment Option -->
+    <label for="payment">Payment Method:</label>
+    <select id="payment" required>
+      <option value="Cash">Cash</option>
+      <option value="UPI">UPI</option>
+      <option value="Card">Card</option>
+    </select>
+    <br><br>
+
+
+    <button type="submit">Submit Order</button>
+  </form>
+
+  <div id="orderResult"></div>
+  
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
