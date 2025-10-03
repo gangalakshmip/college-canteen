@@ -33,4 +33,4 @@ I believe small ideas can make a big difference in everyday life. I’m excited 
 ## 📫 Contact With Me
 
 - **✉️Email:** [gangalaxmi2506@gmail.com]  
-- **🔗LinkedIn:**https://www.linkedin.com/in/gangalakshmi-p-87a445322
+- **🔗LinkedIn:** [https://www.linkedin.com/in/gangalakshmi-p-87a445322]
