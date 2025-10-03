@@ -1,7 +1,7 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
-![GitHub Stars](https://img.shields.io/github/stars/gangalakshmipalraj/canteen-website?style=for-the-badge)
+![GitHub Stars](https://img.shields.io/github/stars/gangalakshmip/canteen-website?style=for-the-badge)
 ## 🚀 Featured Project: College Canteen Food Ordering Website
 
 I recently created a **College Canteen Food Ordering Website** to simplify the ordering process for students and staff, while helping the canteen manage orders efficiently.
