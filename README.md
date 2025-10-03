@@ -6,6 +6,8 @@
 
 I recently created a **College Canteen Food Ordering Website** to simplify the ordering process for students and staff, while helping the canteen manage orders efficiently.
 
+---
+
 **Features:**
 
 - 📖 **Menu Card** – View all items at a glance.
@@ -16,11 +18,15 @@ I recently created a **College Canteen Food Ordering Website** to simplify the o
 - 📱 **Responsive Design** – Works seamlessly on mobile and desktop.
 - 🎯 **Simple Navigation** – Smooth and user-friendly experience.
 
+---
+
 **Tech Used**
 
 - 💻 HTML, CSS, JavaScript
 - 🎨 Frontend design & user-friendly interfaces
 - 🛠 Building real-life solutions for everyday problems
+
+---
 
 ## 🛠 Skills & Tools
 
@@ -29,10 +35,13 @@ I recently created a **College Canteen Food Ordering Website** to simplify the o
 - UI/UX Design
 - Problem-solving through coding
 
+---
+
 ## 🌱 Why this Project Matters
 
 I believe small ideas can make a big difference in everyday life. I’m excited to keep learning and building more projects that have real impact.
 
+---
 
 ## 📫 Connect with Me
 
