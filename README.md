@@ -30,7 +30,7 @@ I recently created a **College Canteen Food Ordering Website** to simplify the o
 I believe small ideas can make a big difference in everyday life. I’m excited to keep learning and building more projects that have real impact.
 
 
-## 📫 Contact With Me
+## 📫 Connect with Me
 
 - **✉️Email:** [gangalaxmi2506@gmail.com]  
 - **🔗LinkedIn:** [https://www.linkedin.com/in/gangalakshmi-p-87a445322]
