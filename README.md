@@ -25,7 +25,7 @@ I recently created a **College Canteen Food Ordering Website** to simplify the o
 - UI/UX Design
 - Problem-solving through coding
 
-## 🌱 Learning Goals
+## 🌱 Why this Project Matters
 
 I believe small ideas can make a big difference in everyday life. I’m excited to keep learning and building more projects that have real impact.
 
